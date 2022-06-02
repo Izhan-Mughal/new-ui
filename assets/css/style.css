@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Syne;
+    src: url(../fonts/Syne.ttf);
+}
+@font-face {
+    font-family: RocGrotesk;
+    src: url(../fonts/RocGrotesk.ttf);
+}
+body{
+    background-color: #05050D;
+}
+.RocGrotesk{
+    font-family: RocGrotesk;
+}
+.Syne{
+    font-family: Syne;
+}
+.nav-link{
+    color:white !important;
+    margin: 0px 12px;
+}
+.fs_small{
+    font-size: 13px;
+}
+
+.large_heading{
+    font-size: 45px;
+    font-weight: 700;
+}
+.danger2{
+    background-color: #B3080C;
+}
+.card:hover{
+    border: 0.5px solid red;
+    transition: 0.8s ease;
+}
+.bg-dark2{
+    background-color: #181619;
+}
+.w-90{
+    width: 90%;
+}
+.wrapper1{
+    position: relative;
+}
+.card{
+    position: relative;
+}
+.bg-danger2{
+    background-color: #B3080C;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+}
+.roadmap_img{
+    position: absolute;
+    top: 110px;
+    right: 80px;
+}
+.roadmap_img img{
+  height: 600px!important;
+  width: 1200px !important;
+}
+.accordion-button,.accordion-header,.accordion-item{
+    background-color: transparent!important;
+    color: #fff!important;
+}
+.accordion-button{
+    border-bottom: 1px solid gray!important;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    border: none;
+}
+@media (max-width:475px) {
+    .img_small{
+        width: 25px!important;
+    }
+    
+}
