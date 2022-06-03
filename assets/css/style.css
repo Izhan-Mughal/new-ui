@@ -12,6 +12,11 @@ body{
 .RocGrotesk{
     font-family: RocGrotesk;
 }
+.Navbar_1{
+    background-image: url(../img/Banner.png);
+    background-size: 100% 100%;
+    height: 90vh;
+}
 .Syne{
     font-family: Syne;
 }
@@ -24,7 +29,7 @@ body{
 }
 
 .large_heading{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
 }
 .danger2{
@@ -77,5 +82,10 @@ body{
     .img_small{
         width: 25px!important;
     }
-    
+    .Navbar_1{
+        background-image: url(../img/banner_img.png);
+        background-size: 100% 100%;
+        background-position: center;
+        height: 90vh;
+    }
 }
